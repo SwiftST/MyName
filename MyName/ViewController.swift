@@ -7,5 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {}
+class ViewController: UIViewController {
+    @IBAction func showMessage() {
+        print("you pressed Hello world button")
+    }
+}
 
