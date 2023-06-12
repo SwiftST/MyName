@@ -72,9 +72,32 @@
                     <view key="view" contentMode="scaleToFill" id="bp0-qx-td2">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lse-f4-kB0">
+                                <rect key="frame" x="112" y="369.66666666666669" width="166" height="47.666666666666686"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Show alert">
+                                            <attributes>
+                                                <font key="NSFont" size="30" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="showAlert" destination="eFh-Ns-QaW" eventType="touchUpInside" id="LRK-lH-Lww"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="tav-Uu-YVb"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <color key="tintColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstItem="Lse-f4-kB0" firstAttribute="centerY" secondItem="bp0-qx-td2" secondAttribute="centerY" id="LXo-BL-xjD"/>
+                            <constraint firstItem="Lse-f4-kB0" firstAttribute="centerX" secondItem="bp0-qx-td2" secondAttribute="centerX" id="NAg-Kc-GuC"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="r4I-aM-2DT"/>
                 </viewController>
