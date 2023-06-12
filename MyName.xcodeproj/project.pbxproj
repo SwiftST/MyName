@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC35CB542A36E4B600CAB8F0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35CB532A36E4B600CAB8F0 /* SecondViewController.swift */; };
 		BC3BAE162A362991006BBA87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3BAE152A362991006BBA87 /* AppDelegate.swift */; };
 		BC3BAE182A362991006BBA87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3BAE172A362991006BBA87 /* SceneDelegate.swift */; };
 		BC3BAE1A2A362991006BBA87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3BAE192A362991006BBA87 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC35CB532A36E4B600CAB8F0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		BC3BAE122A362991006BBA87 /* MyName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyName.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3BAE152A362991006BBA87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC3BAE172A362991006BBA87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				BC3BAE152A362991006BBA87 /* AppDelegate.swift */,
 				BC3BAE172A362991006BBA87 /* SceneDelegate.swift */,
 				BC3BAE192A362991006BBA87 /* ViewController.swift */,
+				BC35CB532A36E4B600CAB8F0 /* SecondViewController.swift */,
 				BC3BAE1B2A362991006BBA87 /* Main.storyboard */,
 				BC3BAE1E2A362992006BBA87 /* Assets.xcassets */,
 				BC3BAE202A362992006BBA87 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC35CB542A36E4B600CAB8F0 /* SecondViewController.swift in Sources */,
 				BC3BAE1A2A362991006BBA87 /* ViewController.swift in Sources */,
 				BC3BAE162A362991006BBA87 /* AppDelegate.swift in Sources */,
 				BC3BAE182A362991006BBA87 /* SceneDelegate.swift in Sources */,
