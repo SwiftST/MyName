@@ -8,6 +8,9 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+    
+    @IBOutlet weak var myLabel: UILabel!
+    
     @IBAction func showAlert() {
         let alertController = UIAlertController(
             title: "Welcome",
@@ -26,5 +29,11 @@ class SecondViewController: UIViewController {
         alertController.addAction(buttonCancel)
         // вызов метода present отображающего всплывающее окно
         self.present(alertController, animated: true)
+    }
+    
+    @IBAction func changeLabelText(_ sender: UIButton) {
+        if let buttonText = sender.titleLabel!.text {
+            self.myLabel.text = "\(buttonText) button was pressed"
+        }
     }
 }
